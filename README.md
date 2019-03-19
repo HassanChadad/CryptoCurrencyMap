@@ -30,7 +30,7 @@ The application uses 2 APIs from https://www.cryptocompare.com, they have a grea
 
 1. https://min-api.cryptocompare.com/data/top/totalvolfull?limit=10&tsym=USD
    returns the top 10 cryptocurrencies in USD
-2. https://min-api.cryptocompare.com/data/histoday returns the history of the price change of a cryptocurrency
+2. https://min-api.cryptocompare.com/data/histoday?fsym=BTC&tsym=USD&limit=75 returns the history of the price change of a cryptocurrency (change BTC in the API to another cryptocurrency)
 
 ## Limitation
 
